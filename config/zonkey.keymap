@@ -220,7 +220,7 @@
 &mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                         &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_2 {
@@ -254,7 +254,7 @@
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN            &kp BACKSPACE  &kp ENTER                           &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
@@ -271,7 +271,7 @@
 &kp LCTRL       &kp LEFT_WIN    &kp LEFT_ALT  &kp INT_HENKAN  &kp SPACE     &kp INT_MUHENKAN             &kp BACKSPACE    &kp ENTER                                                        &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
