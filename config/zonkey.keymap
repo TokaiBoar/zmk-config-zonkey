@@ -231,10 +231,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp EXCL        &kp AT_SIGN   &kp HASH      &kp DOLLAR        &kp PERCENT                                        &kp AMPERSAND     &kp SQT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
-&trans          &trans        &trans        &trans            &trans       &trans                &kp LESS_THAN   &trans            &kp LESS_THAN  &kp GREATER_THAN      &kp UP_ARROW           &kp LCTRL
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &kp UNDERSCORE  &kp GREATER_THAN  &kp QUESTION   &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                    &kp BACKSPACE     &kp ENTER                                                                         &kp DEL
+&kp EXCL        &kp AT_SIGN   &kp HASH      &kp DOLLAR          &kp PERCENT                                           &kp AMPERSAND     &kp SQT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
+&trans          &trans        &trans        &trans              &trans       &trans                   &kp LESS_THAN   &trans            &kp LESS_THAN  &kp GREATER_THAN      &kp UP_ARROW           &kp LCTRL
+&kp LEFT_SHIFT  &trans        &trans        &trans              &trans       &trans                   &kp UNDERSCORE  &kp GREATER_THAN  &kp QUESTION   &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_MUHENKAN  &lt 2 SPACE  &lt 1 INTERNATIONAL_4                    &kp BACKSPACE     &kp ENTER                                                                         &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
